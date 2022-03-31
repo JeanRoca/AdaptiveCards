@@ -83,8 +83,8 @@ export class TableColumnDefinition extends SerializableObject {
             return result;
         },
         (
-            sender: SerializableObject,
-            property: PropertyDefinition,
+            _sender: SerializableObject,
+            _property: PropertyDefinition,
             target: PropertyBag,
             value: SizeAndUnit,
             context: BaseSerializationContext

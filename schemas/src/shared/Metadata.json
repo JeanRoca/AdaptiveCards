@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/microsoft/AdaptiveCards/6f39aedce45864ae1067ed44a5551dc973790bb5/source/nodejs/typed-schema/schema/lib/Type.json",
 	"description": "Defines various metadata properties",
-	"version": "1.6",
+	"version": "1.5",
 	"properties": {
 		"webUrl": {
 			"type": "string",

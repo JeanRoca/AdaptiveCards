@@ -18,12 +18,6 @@ const v13TestCases: string[] = [
 ];
 const v14TestCases: string[] = [];
 const v15TestCases: string[] = [];
-const v16TestCases: string[] = [
-    'Elements/Carousel', 'Elements/Carousel.ScenarioCards',
-    'Elements/Carousel.ScenarioCards.Timer', 'Tests/Carousel.HostConfig',
-    'Tests/Carousel.ForbiddenElements', 'Tests/Carousel.ForbiddenActions',
-    'Tests/Carousel.rtl'
-];
 
 function fixTestCases(list: string[], versionNumber: string) {
     const fixedTestCasesList: string[] = [];
@@ -47,8 +41,7 @@ export function getTestCasesList() {
     testCasesList = testCasesList.concat(
         fixTestCases(v10TestCases, '1.0'), fixTestCases(v11TestCases, '1.1'),
         fixTestCases(v12TestCases, '1.2'), fixTestCases(v13TestCases, '1.3'),
-        fixTestCases(v14TestCases, '1.4'), fixTestCases(v15TestCases, '1.5'),
-        fixTestCases(v16TestCases, '1.6'));
+        fixTestCases(v14TestCases, '1.4'), fixTestCases(v15TestCases, '1.5'));
 
     return testCasesList;
 }

@@ -35,7 +35,6 @@ export class GlobalSettings {
     static useWebkitLineClamp: boolean = true;
     static allowMoreThanMaxActionsInOverflowMenu: boolean = false;
     static removePaddingFromContainersWithBackgroundImage: boolean = false;
-    static resetInputsDirtyStateAfterActionExecution: boolean = true;
 
     static readonly applets: AppletsSettings = {
         logEnabled: true,
